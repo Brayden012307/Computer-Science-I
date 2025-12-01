@@ -1,0 +1,22 @@
+correct_password = "secure123"
+max_attempts = 3
+for attempt in range(1, max_attempts + 1):
+    entered_password = input(f"Attempt {attempt}/{max_attempts}: Enter password: ")
+    if entered_password == correct_password:
+        print("Access granted! ✅")
+        break
+    else:
+        print("Incorrect password. ❌")
+if attempt == max_attempts:
+  print("Maximum attempts reached. Access denied. 🛑")
+
+words = ["hi", "xerox", "", "python", "xy", "code", "x"]
+for word in words:
+    if len(word) == 0:
+        continue
+    if len(word) <= 2:
+        continue
+    # You can add more processing for non-empty words here
+    if word.startswith('x'):
+        continue
+    print(f"Processing: {word}")

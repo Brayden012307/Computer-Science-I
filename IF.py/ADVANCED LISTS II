@@ -1,0 +1,21 @@
+numbers = [45, 12, 78, 34]
+result = numbers.sort() 
+print(numbers) 
+print(result)
+numbers.sort(reverse=True)
+
+
+original = [45, 12, 78, 34]
+new_list = sorted(original)
+print(original) 
+print(new_list)
+
+names = ["Zoe", "alice", "Bob"]
+names.sort()
+print(names)
+names.sort(key=str.lower)
+print(names)
+
+students = [("Alice", 85), ("Bob", 92), ("Charlie", 78)]
+students.sort(key=lambda student: student[1])
+print(students)

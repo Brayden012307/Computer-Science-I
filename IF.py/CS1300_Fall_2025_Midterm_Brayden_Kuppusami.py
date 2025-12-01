@@ -34,7 +34,7 @@ numbers.remove(1)
 print(f"3.4 numbers: {numbers}")
 
 numbers.insert(1, 3)
-print(f"3. numbers: {numbers}")
+print(f"3.5 numbers: {numbers}")
 
 sublist = numbers[0:3]
 print(f"3.6 sublist: {sublist}")

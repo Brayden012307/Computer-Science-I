@@ -1,0 +1,7 @@
+colors = []
+colors.append( "red")
+print('add red to colors:', colors)
+colors.append( "blue")
+print('add red to colors:', colors)
+colors.append( "green")
+print('add red to colors:', colors)
